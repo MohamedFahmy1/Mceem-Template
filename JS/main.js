@@ -104,7 +104,7 @@ function randomImgs() {
   randomCounter = setInterval(() => {
     let randomNumber = Math.floor(Math.random() * imageArray.length);
 
-    landing.style.backgroundImage = `url(../imgs/${imageArray[randomNumber]})`;
+    landing.style.backgroundImage = `url(./imgs/${imageArray[randomNumber]})`;
   }, 5000);
 }
 randomImgs();
